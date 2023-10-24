@@ -44,24 +44,33 @@
           border: none;
           color: white;
         }
+        .center-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
     </style>
 </head>
 <body>
 
-    <div class="container py-5">
+  <div class="center-wrapper">
+    <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
                 <div class="simple-card text-center">
                     <img src="logo.png" alt="Logo Legitimuz">
                     <div class="d-grid">
-                    <a href="https://docs.google.com/document/d/1XVGNHPIH0iA-Rv8XTdpjJ1ZOPF1D5UoIoEQ-4vAeUOI/edit?usp=sharing" class="btn btn-lg btn-outline-dark mb-3 gap-1">Documentação SDK</a>
-                    <a href="https://doc.legitimuz.com/" class="btn btn-lg btn-outline-dark mb-3 gap-1">Documentação API</a>
-                    <a href="https://legitimuz-sdk.vercel.app/" class="btn btn-lg btn-outline-dark gap-1">Exemplo de uso</a>
-                  </div>
+                        <a href="https://docs.google.com/document/d/1XVGNHPIH0iA-Rv8XTdpjJ1ZOPF1D5UoIoEQ-4vAeUOI/edit?usp=sharing" class="btn btn-lg btn-outline-dark mb-3 gap-1" target="_blank">Documentação SDK</a>
+                        <a href="https://doc.legitimuz.com/" class="btn btn-lg btn-outline-dark mb-3 gap-1" target="_blank">Documentação API</a>
+                        <a href="https://legitimuz-sdk.vercel.app/" class="btn btn-lg btn-outline-dark gap-1" target="_blank">Exemplo de uso SDK</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
